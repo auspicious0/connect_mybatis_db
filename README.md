@@ -34,14 +34,14 @@ FLUSH PRIVILEGES;
 ```
 
 
-## 2.	Eclipse 프로젝트 생성 및 드라이버 추가
+## 2. Eclipse 프로젝트 생성 및 드라이버 추가
 eclipse 접속 후 java project를 생성한다. mybatis를 통해 db에 접속하려면 Mybatis 와 MariaDB JDBC 드라이버를 프로젝트에 추가해야 한다. 
 버전 및 상세 정보는 아래와 같다.
    
 ![image](https://github.com/auspicious0/connect_mybatis_db/assets/108572025/1d52e8e9-cf0c-4fc3-9208-201a412f28cb)
 ![image](https://github.com/auspicious0/connect_mybatis_db/assets/108572025/9b55337a-05b7-4301-b476-757b48036637)
 
-## 3.	Mybatis 설정 파일 작성
+## 3. Mybatis 설정 파일 작성
 프로젝트의 resources 폴더 아래나 페키지 폴더에 설정파일을 추가/수정해야 한다. 필요한 설정파일은 mybatis-config.xml과 UserMapper.xml이다. 
 mybatis-config.xml을 통해 접근하고자 하는 ip, db port, db id pw 등의 정보를 기록한다. 
 코드는 아래와 같다.
@@ -90,7 +90,7 @@ UserMapper.xml에는 db에서 하고자하는 작업을 추가한다. 코드는 
 
 ```
 
-## 4.	Java 클래스 및 인터페이스 작성
+## 4. Java 클래스 및 인터페이스 작성
 필요한 Java 클래스는 4개, 인터페이스는 1개이다. 
 클래스에는 User, MyBatisUtil UserDao, Test가 있고 인터페이스는 UserMapper이다. 
 각각이 하는 역할과 코드를 살펴보자.
