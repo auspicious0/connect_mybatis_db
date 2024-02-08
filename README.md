@@ -1,10 +1,10 @@
 # connect mybatis_db
 
-## 1. [마리아DB 설정](#1-mariadb-setting)
-## 2. [Eclipse 프로젝트 생성 및 드라이버 추가](#2-eclipse-프로젝트-생성-및-드라이버-추가)
-## 3. [Mybatis 설정 파일 작성](#3-mybatis-설정-파일-작성)
-## 4. [Java 클래스 및 인터페이스 작성](#4-java-클래스-및-인터페이스-작성)
-## 5. [실행결과](#5-실행결과)
+ 1. [마리아DB 설정](#1-mariadb-setting)
+ 2. [Eclipse 프로젝트 생성 및 드라이버 추가](#2-eclipse-프로젝트-생성-및-드라이버-추가)
+ 3. [Mybatis 설정 파일 작성](#3-mybatis-설정-파일-작성)
+ 4. [Java 클래스 및 인터페이스 작성](#4-java-클래스-및-인터페이스-작성)
+ 5. [실행결과](#5-실행결과)
 
 
 ## 1. mariadb setting
