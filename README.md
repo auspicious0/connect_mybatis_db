@@ -1,5 +1,12 @@
 # connect mybatis_db
 
+## 1. [마리아DB 설정](#1-마리아db-설정)
+## 2. [Eclipse 프로젝트 생성 및 드라이버 추가](#2-eclipse-프로젝트-생성-및-드라이버-추가)
+## 3. [Mybatis 설정 파일 작성](#3-mybatis-설정-파일-작성)
+## 4. [Java 클래스 및 인터페이스 작성](#4-java-클래스-및-인터페이스-작성)
+## 5. [실행결과](#5-실행결과)
+
+
 ## 1.	mariadb setting
 우선 vmware를 활성화 한 뒤 mariadb를 설치 후 접속한다. 
 접속 후 Database exampledb를 생성한다. 코드는 아래와 같다.
@@ -88,7 +95,7 @@ UserMapper.xml에는 db에서 하고자하는 작업을 추가한다. 코드는 
 클래스에는 User, MyBatisUtil UserDao, Test가 있고 인터페이스는 UserMapper이다. 
 각각이 하는 역할과 코드를 살펴보자.
 
-User클래스는 데이터베이스의 사용자 정보를 표현하는 클래스이다. 필드로는 사용자의 ID, 사용자의 이름, 이메일이 있다.
+- User클래스는 데이터베이스의 사용자 정보를 표현하는 클래스이다. 필드로는 사용자의 ID, 사용자의 이름, 이메일이 있다.
 아래는 코드이다. 
 
 ```
@@ -197,7 +204,7 @@ public class Test {
 
 ```
 
-## 실행결과
+## 5. 실행결과
 ![image](https://github.com/auspicious0/connect_mybatis_db/assets/108572025/dec19de9-85ed-444b-9501-28ce88d2538f)
 
  
