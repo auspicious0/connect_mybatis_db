@@ -1,13 +1,13 @@
 # connect mybatis_db
 
-## 1. [마리아DB 설정](#1-마리아db-설정)
+## 1. [마리아DB 설정](#1-mariadb-setting)
 ## 2. [Eclipse 프로젝트 생성 및 드라이버 추가](#2-eclipse-프로젝트-생성-및-드라이버-추가)
 ## 3. [Mybatis 설정 파일 작성](#3-mybatis-설정-파일-작성)
 ## 4. [Java 클래스 및 인터페이스 작성](#4-java-클래스-및-인터페이스-작성)
 ## 5. [실행결과](#5-실행결과)
 
 
-## 1.	mariadb setting
+## 1. mariadb setting
 우선 vmware를 활성화 한 뒤 mariadb를 설치 후 접속한다. 
 접속 후 Database exampledb를 생성한다. 코드는 아래와 같다.
 
