@@ -127,7 +127,7 @@ public class User {
 
 ```
 
-MyBatisUtil 클래스는 MyBatis의 SqlSessionFactory를 생성하는 클래스이다. 
+- MyBatisUtil 클래스는 MyBatis의 SqlSessionFactory를 생성하는 클래스이다. 
 getSqlSessionFactory() 메서드는 SqlSessionFactory 인스턴스를 반환한다. 이 인스턴스는 데이터베이스와의 연결을 설정하고 SQL 세션을 생성하는 데 사용된다.
 
  ```
@@ -153,8 +153,7 @@ public class MyBatisUtil {
 }
 ```
 
-UserMapper인터페이스는 데이터베이스에서 사용자 정보를 가져오기 위한 메서드를 선언한다. 
-이 인터페이스는 SQL 쿼리를 실행하기 위한 메서드를 정의한다. 
+- UserMapper인터페이스는 데이터베이스에서 사용자 정보를 가져오기 위한 메서드를 선언한다. 이 인터페이스는 SQL 쿼리를 실행하기 위한 메서드를 정의한다. 
 
 ```
 
@@ -167,7 +166,7 @@ public interface UserMapper {
 
 ```
 
-UserDao 클래스는 데이터베이스와 통신하는데 사용된다. getAllUsers() 메서드는 mybatis를 사용하여 데이터베이스에서 모든 사용자 정보를 가져온다. 
+- UserDao 클래스는 데이터베이스와 통신하는데 사용된다. getAllUsers() 메서드는 mybatis를 사용하여 데이터베이스에서 모든 사용자 정보를 가져온다. 
 이 클래스는 데이터베이스와 연결 및 세션 관리를 한다고 볼 수 있다.
 
 ```
@@ -187,7 +186,7 @@ public class UserDao {
 
 ```
 
-Test 클래스는 프로그램을 실제로 실행하는 클래스이다. UserDao를 사용하여 사용자 정보를 가져온 후 출력한다.
+- Test 클래스는 프로그램을 실제로 실행하는 클래스이다. UserDao를 사용하여 사용자 정보를 가져온 후 출력한다.
 
 ```
 import java.util.List;
