@@ -61,9 +61,9 @@ mybatis-config.xml을 통해 접근하고자 하는 ip, db port, db id pw 등의
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="org.mariadb.jdbc.Driver"/>
-                <property name="url" value="jdbc:mariadb://192.168.1.98:3306/exampledb"/>
-                <property name="username" value="user2"/>
-                <property name="password" value="Dkfvk!@234"/>
+                <property name="url" value="jdbc:mariadb://*.*.*.*:3306/exampledb"/>
+                <property name="username" value="id"/>
+                <property name="password" value="password"/>
             </dataSource>
         </environment>
     </environments>
